@@ -1,0 +1,1 @@
+(()=>{"use strict";const e=document.createElement("h1");e.innerText="Virtual keyboard for RSSchool!",document.body.appendChild(e),console.log(function(...e){return function(...e){let t=0;for(let n=0;n<e.length;n++)t+=e[n];return t}(...e)/e.length}(1,4,8))})();

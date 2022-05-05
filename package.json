@@ -1,0 +1,21 @@
+{
+  "name": "virtual-keyboard",
+  "version": "1.0.0",
+  "description": "Virtual keyboard for RSSchool",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development --open-app-name 'chrome'",
+    "build": "webpack --mode production"
+  },
+  "author": "IrLiss",
+  "license": "ISC",
+  "devDependencies": {
+    "favicons": "^7.0.0-beta.4",
+    "favicons-webpack-plugin": "^0.0.7",
+    "html-webpack-plugin": "^5.5.0",
+    "path": "^0.12.7",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  }
+}
