@@ -1,10 +1,8 @@
-import avg from './some';
+import './styles/style.css';
+import './fonts/arial/stylesheet.css';
+import './fonts/georgia/stylesheet.css';
+import Application from './js/application';
 
-// Create element
-let h1 = document.createElement("h1");
-h1.innerText = "Virtual keyboard for RSSchool!";
+const app = new Application(document.body);
 
-// Append to body
-document.body.appendChild(h1);
-
-console.log(avg(1, 4, 8));
+app.getLang();
