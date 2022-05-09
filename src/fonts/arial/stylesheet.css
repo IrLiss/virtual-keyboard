@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "Arial";
+    font-weight: bold;
+    font-style: normal;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Arial Bold"),
+         local("Arial Полужирный"),
+    /* Если не получилось, загрузит woff2 */
+         url("Arial-BoldMT.woff2") format("woff2"),
+    /* Если браузер не поддерживает woff2, загрузит woff */
+         url("Arial-BoldMT.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Arial Narrow";
+    font-weight: normal;
+    font-style: normal;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Arial Narrow"),
+    /* Если не получилось, загрузит woff2 */
+         url("ArialNarrow.woff2") format("woff2"),
+    /* Если браузер не поддерживает woff2, загрузит woff */
+         url("ArialNarrow.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Arial Narrow";
+    font-weight: bold;
+    font-style: normal;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Arial Narrow Bold"),
+         local("Arial Narrow Полужирный"),
+    /* Если не получилось, загрузит woff2 */
+         url("ArialNarrow-Bold.woff2") format("woff2"),
+    /* Если браузер не поддерживает woff2, загрузит woff */
+         url("ArialNarrow-Bold.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Arial";
+    font-weight: normal;
+    font-style: normal;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Arial"),
+    /* Если не получилось, загрузит woff2 */
+         url("ArialMT.woff2") format("woff2"),
+    /* Если браузер не поддерживает woff2, загрузит woff */
+         url("ArialMT.woff") format("woff");
+    font-display: swap;
+}

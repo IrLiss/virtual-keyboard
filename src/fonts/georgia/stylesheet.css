@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Georgia";
+    font-weight: bold;
+    font-style: normal;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Georgia Bold"),
+         local("Georgia Полужирный"),
+    /* Если не получилось, загрузит woff2 */
+         url("Georgia-Bold.woff2") format("woff2"),
+    /* Если браузер не поддерживает woff2, загрузит woff */
+         url("Georgia-Bold.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Georgia";
+    font-weight: normal;
+    font-style: normal;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Georgia"),
+    /* Если не получилось, загрузит woff2 */
+         url("Georgia.woff2") format("woff2"),
+    /* Если браузер не поддерживает woff2, загрузит woff */
+         url("Georgia.woff") format("woff");
+    font-display: swap;
+}
