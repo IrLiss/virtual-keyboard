@@ -5,12 +5,16 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --mode development --open-app-name 'chrome'",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "eslint": "eslint ./src/ --fix"
   },
   "author": "IrLiss",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^6.7.1",
+    "eslint": "^8.15.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
     "favicons": "^7.0.0-beta.4",
     "favicons-webpack-plugin": "^0.0.7",
     "html-webpack-plugin": "^5.5.0",
