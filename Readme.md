@@ -1,5 +1,5 @@
 ## 🚀 Welcome to your new project RSS Virtual Keyboard!
-Деплой проекта: https://irliss.github.io/RSSVirtualKeyboard/
+Деплой проекта: https://irliss.github.io/virtual-keyboard/
 ## 📖 Documentation
 Для загрузки модулей проекта, запустите:
 ```npm
